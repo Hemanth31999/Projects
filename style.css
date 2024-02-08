@@ -1,0 +1,509 @@
+body {
+    background-color: rgb(40, 64, 85);
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    background-color: rgb(40, 64, 85);
+    color: rgb(110, 195, 224);
+    z-index: 1;
+    /* Ensure left div is in front */
+}
+
+.right {
+    flex: 1;
+    padding: 17px;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 30%;
+    /* Adjusted margin to avoid overlap */
+}
+
+.inside-left {
+    margin: 20px;
+    text-align: center;
+}
+
+#profilephoto {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#name {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Soft {
+    margin-top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    /* Evenly spaced icons */
+}
+
+.icons a {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: inherit;
+    /* Inherit text color */
+    font-size: 24px;
+    /* Adjust the size as needed */
+    transition: color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.icons i {
+    margin: 0 10px;
+    /* Add space around each icon */
+}
+
+.icons a:hover i {
+    color: white;
+    /* Change to the desired color on hover (LinkedIn blue as an example) */
+}
+
+
+/* Optional: Remove underline on hover */
+.link:hover {
+    text-decoration: none;
+}
+
+
+/* Optional: Remove underline on hover */
+.link:hover {
+    text-decoration: none;
+}
+
+
+/*download Buttons*/
+
+.download {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.download .b {
+    text-indent: -70px;
+    /* adjust the value to your liking */
+}
+
+.link:hover {
+    color: rgb(110, 195, 224);
+}
+
+
+/*Right Side*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(110, 195, 224);
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 90px;
+    /* Adjust the spacing between links */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    /* Change the color on hover */
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    /* Hide by default for larger screens */
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.Headline {
+    margin-top: 40px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 130%;
+
+
+}
+
+
+/* Table */
+.info-container {
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+
+.info-item {
+    padding-right: 50px;
+    line-height: 150%;
+    color: white;
+    flex: 1 0 calc(50% - 25px);
+
+    /* Take 50% width, considering padding */
+    #sides {
+        color: rgb(110, 195, 224);
+    }
+
+    /* Adjust styles for medium-sized screens and larger */
+    @media only screen and (min-width: 768px) {
+        flex: 1 0 calc(50% - 50px);
+        /* Take 50% width on medium-sized screens and larger, considering padding */
+    }
+}
+
+
+
+
+
+
+/* 
+Skills */
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: rgb(110, 195, 224);
+    width: var(--progress);
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Experiences */
+h2 {
+    color: rgb(110, 195, 224);
+    /* Color for h2 headings */
+    font-size: 25px;
+    /* Adjusted font size for h2 headings */
+    margin-bottom: 10px;
+    /* Added some space below h2 */
+}
+
+#date {
+    font-size: 20px;
+}
+
+.experience {
+    margin-bottom: 30px;
+}
+
+#exp {
+    color: white;
+}
+
+#exp:hover {
+    color: rgb(110, 195, 224);
+}
+
+.experience h3 {
+    color: rgb(110, 195, 224);
+}
+
+.info-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.place {
+    font-weight: bold;
+}
+
+.experience span {
+    font-size: 22px;
+}
+
+p {
+    font-size: 22px;
+    /* Font size for paragraphs */
+}
+
+ul {
+    font-size: 22px;
+    /* Font size for unordered lists */
+}
+
+h2:hover {
+    color: white;
+    /* Hover effect for h2 headings */
+    cursor: pointer;
+    /* Cursor style on hover */
+}
+
+
+
+
+/* 
+Portfolio */
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-card {
+    width: 48%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.image-card img {
+    width: 100%;
+    height: 200px; /* Set a specific height for uniformity */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover img {
+    transform: scale(1.1);
+}
+
+.image-card p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+/* Contact me */
+form {
+    
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:rgb(110, 195, 224);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(110, 195, 224);
+}
+
+
+
+
+
+/* Footer */
+footer {
+    color:white;
+    text-align: center;
+margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(110, 195, 224);
+}
+footer a:hover{
+    color: white;
+}
+
+
+/*  Projects.html */
+.project-div {
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center; /* Center horizontally */
+
+}
+.project-in{
+    margin: 2%;
+    color: white;
+    
+        line-height: 1.25; 
+        text-align: justify;
+}
+
+.project-in a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive adjustments for hamburger menu */
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        /* Show for smaller screens */
+    }
+
+    nav {
+        display: none;
+        /* Hide navigation by default on smaller screens */
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        /* Adjust the top position as needed */
+        left: 0;
+        width: 100%;
+        background-color: rgb(40, 64, 85);
+    }
+
+    nav a {
+        display: block;
+        padding: 15px 0;
+        margin-right: 0;
+        /* Adjust margin for smaller screens */
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+
+
+
+
+
+
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        z-index: initial;
+        /* Reset z-index for smaller screens */
+    }
+
+    .right {
+        flex: 1;
+        width: 100%;
+        margin-left: 0;
+        /* Remove margin on smaller screens */
+    }
+}
