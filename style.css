@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(40, 64, 85);
+    background-color:white;
     margin: 0;
 }
 
@@ -18,8 +18,8 @@ body {
     height: 100vh;
     position: fixed;
     overflow-y: auto;
-    background-color: rgb(40, 64, 85);
-    color: rgb(110, 195, 224);
+    background-color: white;
+    color: #2256a2;
     z-index: 1;
     /* Ensure left div is in front */
 }
@@ -28,7 +28,7 @@ body {
     flex: 1;
     padding: 17px;
     box-sizing: border-box;
-    color: white;
+    color: black;
     margin-left: 30%;
     /* Adjusted margin to avoid overlap */
 }
@@ -58,7 +58,7 @@ body {
 
 #Soft {
     margin-top: 15px;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .icons a:hover i {
-    color: white;
+    color: black;
     /* Change to the desired color on hover (LinkedIn blue as an example) */
 }
 
@@ -114,7 +114,7 @@ body {
 
 .link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .download .b {
@@ -123,7 +123,7 @@ body {
 }
 
 .link:hover {
-    color: rgb(110, 195, 224);
+    color: #2256a2;
 }
 
 
@@ -137,7 +137,7 @@ body {
 
 header {
 
-    color: white;
+    color: black;
     padding: 10px 0;
 }
 
@@ -148,7 +148,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(110, 195, 224);
+    color: #2256a2;
     font-weight: bold;
     font-size: 22px;
     margin-right: 90px;
@@ -157,7 +157,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: black;
     /* Change the color on hover */
 }
 
@@ -174,7 +174,7 @@ nav a:hover {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 5px 0;
 }
 
@@ -195,7 +195,7 @@ nav a:hover {
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
-    color: white;
+    color: black;
 }
 
 
@@ -203,12 +203,12 @@ nav a:hover {
 .info-item {
     padding-right: 50px;
     line-height: 150%;
-    color: white;
+    color: black;
     flex: 1 0 calc(50% - 25px);
 
     /* Take 50% width, considering padding */
     #sides {
-        color: rgb(110, 195, 224);
+        color: #2256a2;
     }
 
     /* Adjust styles for medium-sized screens and larger */
@@ -237,7 +237,7 @@ Skills */
 
 .progress-bar {
     height: 20px;
-    background-color: rgb(110, 195, 224);
+    background-color: #2256a2;
     width: var(--progress);
     max-width: 100%;
     border-radius: 5px;
@@ -255,7 +255,7 @@ Skills */
 
 /* Experiences */
 h2 {
-    color: rgb(110, 195, 224);
+    color: #2256a2;
     /* Color for h2 headings */
     font-size: 25px;
     /* Adjusted font size for h2 headings */
@@ -272,15 +272,15 @@ h2 {
 }
 
 #exp {
-    color: white;
+    color: black;
 }
 
 #exp:hover {
-    color: rgb(110, 195, 224);
+    color: #2256a2;
 }
 
 .experience h3 {
-    color: rgb(110, 195, 224);
+    color: #2256a2;
 }
 
 .info-line {
@@ -309,7 +309,7 @@ ul {
 }
 
 h2:hover {
-    color: white;
+    color: black;
     /* Hover effect for h2 headings */
     cursor: pointer;
     /* Cursor style on hover */
@@ -377,8 +377,8 @@ textarea {
 }
 
 button {
-    background-color:rgb(110, 195, 224);
-    color: white;
+    background-color:#2256a2;
+    color:white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -386,8 +386,8 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: rgb(110, 195, 224);
+    background-color: black;
+    color: #2256a2;
 }
 
 
@@ -396,16 +396,16 @@ button:hover {
 
 /* Footer */
 footer {
-    color:white;
+    color:black;
     text-align: center;
 margin-bottom: 20px;
 }
 footer a{
     text-decoration: none;
-    color: rgb(110, 195, 224);
+    color: #2256a2;
 }
 footer a:hover{
-    color: white;
+    color: black;
 }
 
 
@@ -419,14 +419,14 @@ footer a:hover{
 }
 .project-in{
     margin: 2%;
-    color: white;
+    color: black;
     
         line-height: 1.25; 
         text-align: justify;
 }
 
 .project-in a{
-    color: white;
+    color: black;
 }
 
 
